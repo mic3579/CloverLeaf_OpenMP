@@ -28,7 +28,7 @@ jobs:
       - name: Install deps
         run: |
           sudo apt-get update -y
-          sudo apt-get install -y gfortran libomp-dev
+          sudo apt-get install -y gfortran
       
       - name: build
         run: make COMPILER=GNU MPI_COMPILER=gfortran C_MPI_COMPILER=gcc
