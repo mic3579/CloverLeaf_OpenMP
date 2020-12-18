@@ -34,6 +34,6 @@ jobs:
         run: make COMPILER=GNU MPI_COMPILER=gfortran C_MPI_COMPILER=gcc
 
       - name: Coderrect Scan
-        uses: coderrect-inc/coderrect-github-action@v0.5
+        uses: coderrect-inc/coderrect-github-action@v1.2
         with:
           buildCommand: "make COMPILER=GNU MPI_COMPILER=gfortran C_MPI_COMPILER=gcc"
