@@ -37,3 +37,4 @@ jobs:
         uses: coderrect-inc/coderrect-github-action@v1.2
         with:
           buildCommand: "make COMPILER=GNU MPI_COMPILER=gfortran C_MPI_COMPILER=gcc"
+          exit0: true
